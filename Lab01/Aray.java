@@ -49,9 +49,6 @@ public class Aray {
     }         //Метод вывода массива (В обратном порядке)
 
     void search(int min, int max){
-
-
-
         int k=0;
         for(int i=0;i<n;i++){
             if (arr[i]>=min && arr[i]<=max)
@@ -78,10 +75,5 @@ public class Aray {
         }
         return arr;
     }
-
-
-
-
-
 
 }
